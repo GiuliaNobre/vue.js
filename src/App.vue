@@ -22,9 +22,9 @@ onMounted(() => {
 </script>
 
 <template>
-   <button @click="incrementarContador">Incrementar</button>
-  <button @click="decrementarContador">Decrementar</button>
-  <button @click="Reiniciar">Reiniciar</button>
+   <button @click="incrementarContador">+</button>
+  <button @click="decrementarContador">-</button>
+  <button @click="Reiniciar">C</button>
   <p>Valor do contador é: {{ contador }}</p>
 </template>
 
@@ -38,6 +38,7 @@ button {
   display: inline-block;
   padding: 15px 25px;
   font-size: 24px;
+  margin: 20px;
   cursor: pointer;
   text-align: center;
   text-decoration: none;
