@@ -44,7 +44,7 @@ button {
   text-decoration: none;
   outline: none;
   color: #fff;
-  background-color: #af4c86;
+  background-color: #634caf;
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #999;
