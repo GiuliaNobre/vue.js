@@ -53,7 +53,7 @@ onMounted(() => {
 <div v-if="ok">Mostrar</div>
 
 <button v-on:click="algumaFuncao"> <a v-bind:href="url">Mais informações...</a> </button>
-<form v-on:submit.prevent="algumaFuncao"> the end... por enquanto!</form>
+<form v-on:submit.prevent="algumaFuncao"> the end... </form>
 
 
 </template>
